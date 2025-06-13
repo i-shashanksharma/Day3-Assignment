@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Tech Fest Registration</title>
+</head>
+<body>
+
+    <h1>🚀 Tech Fest 2025 – Registration Form</h1>
+
+    <form action="submit-form.php" method="post">
+        
+        <p><strong>Full Name:</strong><br>
+        <input type="text" name="fullname" required></p>
+
+        <p><strong>Email:</strong><br>
+        <input type="email" name="email" required></p>
+
+        <p><strong>Phone Number:</strong><br>
+        <input type="tel" name="phone" required></p>
+
+        <p><strong>Gender:</strong><br>
+        <input type="radio" name="gender" value="Male"> Male<br>
+        <input type="radio" name="gender" value="Female"> Female<br>
+        <input type="radio" name="gender" value="Other"> Other</p>
+
+        <p><strong>College:</strong><br>
+        <input type="text" name="college"></p>
+
+        <p><strong>Select Your Department:</strong><br>
+        <select name="department">
+            <option value="cse">Computer Science</option>
+            <option value="ece">Electronics</option>
+            <option value="mech">Mechanical</option>
+            <option value="civil">Civil</option>
+            <option value="other">Other</option>
+        </select></p>
+
+        <p><strong>Events You Want to Participate In:</strong><br>
+        <input type="checkbox" name="events" value="Coding"> Coding<br>
+        <input type="checkbox" name="events" value="Robotics"> Robotics<br>
+        <input type="checkbox" name="events" value="Quiz"> Quiz<br>
+        <input type="checkbox" name="events" value="Hackathon"> Hackathon</p>
+
+        <p><strong>Tell Us Why You Want to Join:</strong><br>
+        <textarea name="message" rows="5" cols="40" placeholder="Your message here..."></textarea></p>
+
+        <p><input type="submit" value="Register Now"></p>
+
+    </form>
+
+</body>
+</html>
