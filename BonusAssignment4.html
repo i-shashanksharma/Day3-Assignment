@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Preference Survey</title>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+    th, td {
+      padding: 10px;
+    }
+    label {
+      margin-right: 20px;
+    }
+    button {
+      margin: 2px;
+    }
+  </style>
+</head>
+<body>
+   
+
+
+  <h1>Food Preferences Registration</h1>
+  <h5>Please fill out the form below</h5>
+
+  <form method="post">
+    <table border="1">
+    
+      <tr>
+        <td><label for="user">Name:</label></td>
+        <td><input type="text" id="user" name="user" required></td>
+      </tr>
+
+      <tr>
+        <td><label for="age">Age:</label></td>
+        <td><input type="number" id="age" name="age" required></td>
+      </tr>
+
+      <tr>
+        <td><label>Location:</label></td>
+        <td>
+          <label><input type="radio" name="location" value="urban"> Urban</label>
+          <label><input type="radio" name="location" value="suburban"> Suburban</label>
+          <label><input type="radio" name="location" value="rural"> Rural</label>
+        </td>
+      </tr>
+
+   
+      <tr>
+        <td><label>You prepare your own meals:</label></td>
+        <td>
+          <label><input type="radio" name="you_prepare" value="daily"> Daily</label>
+          <label><input type="radio" name="you_prepare" value="often"> Often</label>
+          <label><input type="radio" name="you_prepare" value="sometimes"> Sometimes</label>
+          <label><input type="radio" name="you_prepare" value="rarely"> Rarely</label>
+          <label><input type="radio" name="you_prepare" value="never"> Never</label>
+          <label><input type="radio" name="you_prepare" value="other"> Other</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td><label>You eat out:</label></td>
+        <td>
+          <label><input type="radio" name="you_eat_out" value="daily"> Daily</label>
+          <label><input type="radio" name="you_eat_out" value="often"> Often</label>
+          <label><input type="radio" name="you_eat_out" value="sometimes"> Sometimes</label>
+          <label><input type="radio" name="you_eat_out" value="rarely"> Rarely</label>
+          <label><input type="radio" name="you_eat_out" value="never"> Never</label>
+          <label><input type="radio" name="you_eat_out" value="other"> Other</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td><label>You order food for home:</label></td>
+        <td>
+          <label><input type="radio" name="you_order_food" value="daily"> Daily</label>
+          <label><input type="radio" name="you_order_food" value="often"> Often</label>
+          <label><input type="radio" name="you_order_food" value="sometimes"> Sometimes</label>
+          <label><input type="radio" name="you_order_food" value="rarely"> Rarely</label>
+          <label><input type="radio" name="you_order_food" value="never"> Never</label>
+          <label><input type="radio" name="you_order_food" value="other"> Other</label>
+        </td>
+      </tr>
+
+
+      <tr>
+        <td><label>Food Origin Preference:</label></td>
+        <td>
+          <label><input type="checkbox" name="food_origin_preference" value="indian"> Indian</label>
+          <label><input type="checkbox" name="food_origin_preference" value="italian"> Italian</label>
+          <label><input type="checkbox" name="food_origin_preference" value="chinese"> Chinese</label>
+          <label><input type="checkbox" name="food_origin_preference" value="mexican"> Mexican</label>
+          <label><input type="checkbox" name="food_origin_preference" value="thai"> Thai</label>
+          <label><input type="checkbox" name="food_origin_preference" value="french"> French</label>
+          <label><input type="checkbox" name="food_origin_preference" value="japanese"> Japanese</label>
+          <label><input type="checkbox" name="food_origin_preference" value="american"> American</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td><label>Would you go vegan?</label></td>
+        <td>
+          <label><input type="radio" name="vegan" value="yes"> Yes</label>
+          <label><input type="radio" name="vegan" value="no"> No</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2">
+          <table border="1" width="100%">
+            <tr><td colspan="2"><strong>Extra Questions</strong></td></tr>
+            <tr><td>Fav Dessert:</td><td><input type="text" name="dessert"></td></tr>
+            <tr><td>Allergies:</td><td><input type="text" name="allergies"></td></tr>
+            <tr><td>Fav Fruit:</td><td><input type="text" name="fruit"></td></tr>
+            <tr><td>Daily Meals:</td><td><input type="number" name="meals"></td></tr>
+            <tr><td>Fav Drink:</td><td><input type="text" name="drink"></td></tr>
+            <tr><td>Snack Time:</td><td><input type="text" name="snack_time"></td></tr>
+            <tr><td>Spicy Tolerance:</td><td><input type="text" name="spice"></td></tr>
+            <tr><td>Food Budget:</td><td><input type="text" name="budget"></td></tr>
+          </table>
+        </td>
+      </tr>
+
+    
+      <tr>
+        <td colspan="2" style="text-align: center;">
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </td>
+      </tr>
+
+    </table>
+  </form>
+
+
+</body>
+</html>
